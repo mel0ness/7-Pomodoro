@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pomodoro App</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800&family=Lato:wght@100;300;400;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="P7-title">Le <span class="P7-bold">POMODORO</span></div>
+
+  <div class="P7-timers">
+    <div class="P7-timer">
+      <div class="P7-timeTitle">Travail</div>
+      <div class="P7-timeUnits">30:00</div>
+    </div>
+    <div class="P7-timer">
+      <div class="P7-timeTitle">Repos</div>
+      <div class="P7-timeUnits">5:00</div>
+    </div>
+  </div>
+
+  <div class="P7-actions">
+    <div class="P7-action"><img src="./ressources/play.svg" class="P7-play"></div>
+    <div class="P7-action"><img src="./ressources/reset.svg" class="P7-reset"></div>
+  </div>
+
+  <div class="P7-cycles">Cycle(s): <span>0</span></div>
 
 
-    <script src="app.js"></script>
-  </body>
+  <script src="app.js"></script>
+</body>
+
 </html>

@@ -13,3 +13,92 @@ body {
   padding: clamp(20px, 5vw, 50px) 10px;
   color: #161616;
 }
+
+.P7-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.P7-bold {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.P7-timers {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.P7-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 3px;
+  width: 150px;
+  height: 100px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  font-family: Inconsolata, sans-serif;
+  gap: 10px;
+}
+
+.P7-timeTitle {
+  font-size: 1.4rem;
+ font-weight: 800;
+}
+
+.P7-timeUnits {
+  font-size: 1.2rem;
+}
+
+.P7-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  justify-content: center;
+}
+
+.P7-action {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.P7-play {
+  width: 20px;
+  height: 20px;
+}
+
+.P7-reset {
+  width: 20px;
+  height: 20px;
+}
+
+.P7-cycles {
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media(min-width: 425px) {
+.P7-timer {
+  width: 200px;
+}
+}
+@media(min-width: 700px) {
+.P7-timer {
+  width: 250px;
+}
+}
