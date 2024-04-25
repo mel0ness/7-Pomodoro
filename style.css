@@ -92,6 +92,10 @@ body {
   text-align: center;
 }
 
+.P7-active {
+  border: 5px solid red
+}
+
 @media(min-width: 425px) {
 .P7-timer {
   width: 200px;
